@@ -73,9 +73,11 @@ body {
 @layer base {
   * {
     @apply border-border;
+    scroll-behavior: smooth;
   }
   body {
     @apply bg-background text-foreground;
+    scroll-behavior: smooth;
   }
   .homescreen{
     background: url("/images/bg-home.webp");

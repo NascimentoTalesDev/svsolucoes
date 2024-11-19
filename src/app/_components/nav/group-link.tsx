@@ -12,7 +12,7 @@ const NavGroupLink = () => {
       <NavLink active={pathname === "/"} path="/" >Início</NavLink>
       <NavLink active={checkPathname(pathname, "/equipamentos")} path="/equipamentos" >Equipamentos</NavLink>
       <NavLink active={checkPathname(pathname, "/sobre")} path="/sobre" >Sobre</NavLink>
-      <NavLink active={checkPathname(pathname, "/#contato")} path="/#contato">Contato</NavLink>
+      <NavLink active={checkPathname(pathname, "/#contact")} path="#contact">Contato</NavLink>
     </NavLinks>
   );
 };
