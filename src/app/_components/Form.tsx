@@ -3,7 +3,7 @@ import CenterContent from './CenterContent'
 import ContactForm from '@/components/ContactForm'
 
 interface FormProps {
-    id: string
+    id?: string
 }
 
 const Form = ({ id }: FormProps) => {
