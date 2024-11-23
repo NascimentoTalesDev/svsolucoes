@@ -4,8 +4,8 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <Link href={""}>
-        <Image src={"/images/whatsapp.png"} alt='WhatsApp' height={20} width={20} />
+    <Link href={"/"}>
+        <Image src={"/images/logo.png"} alt='Logo' height={70} width={70} />
     </Link>
   )
 }
