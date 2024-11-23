@@ -12,7 +12,7 @@ const HomeScreen = () => {
         <div className='homescreen relative w-full h-[calc(100vh-50px)]'>
             <div className='h-full w-full bg-black/20'>
                 <CenterContent>
-                    <div className='h-full w-[700px] text-white flex flex-col justify-center gap-[20px]'>
+                    <div className='h-full max-w-[700px] text-white flex flex-col justify-center gap-[20px]'>
                         <div>
                             <h1 className='text-[50px] leading-tight font-bold'>Liderando em locação <br /> com excelência!</h1>
                         </div>

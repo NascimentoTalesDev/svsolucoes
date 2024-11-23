@@ -8,9 +8,11 @@ interface LogoProps{
 
 const Logo = ({ href }: LogoProps) => {
   return (
-    <Link href={href ? href : "/"}>
-      <Image src={"/images/logo.png"} alt='Logo' height={70} width={70} />
-    </Link>
+    <div className='relative w-[70px] h-[70px]'>
+      <Link href={href ? href : "/"}>
+        <Image src={"/images/logo.png"} alt='Logo' fill />
+      </Link>
+    </div>
   )
 }
 

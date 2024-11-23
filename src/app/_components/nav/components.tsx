@@ -14,6 +14,14 @@ type NavLinkProps = {
     active?: boolean;
 }
 
+type NavLinkMobileProps = {
+    children: React.ReactNode;
+    className?: string;
+    path: string;
+    active?: boolean;
+    onClick: () => void ;
+}
+
 export function NavComponent({ children, className }: NavGenericProps) {
     return (
         <header className={cn("w-full h-full", className)}>{children}</header>
@@ -40,8 +48,24 @@ export function NavLinks({ children, className }: NavGenericProps) {
 
 export function NavLink({ children, className, path, active }: NavLinkProps) {
     return (
-        <li className="">
-            <Link href={path} className={cn(`font-normal p-2 transition-all duration-300 hover:text-white ${active ? "text-white border-b-2" : "text-lightGray"}`, className)} >
+        <li>
+            <Link href={path} className={cn(`font-normal p-2 transition-all hover:text-white ${active ? "text-white border-b-2" : "text-lightGray"}`, className)} >
+                {children}
+            </Link>
+        </li>
+    )
+}
+
+export function NavLinksMobile({ children, className }: NavGenericProps) {
+    return (
+        <ul className={cn("flex flex-col items-center mt-[20%] gap-5 h-full", className)}>{children}</ul>
+    )
+}
+
+export function NavLinkMobile({ children, className, path, active, onClick }: NavLinkMobileProps) {
+    return (
+        <li onClick={onClick}>
+            <Link href={path} className={cn(`font-normal text-lg  py-5 transition-all duration-300 hover:text-white ${active ? "text-gray" : "text-lightGray"}`, className)} >
                 {children}
             </Link>
         </li>

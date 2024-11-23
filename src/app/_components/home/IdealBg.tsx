@@ -7,7 +7,7 @@ const IdealBg = () => {
         <div className='h-full bg-black/20'>
             <CenterContent>
                 <div className='h-full text-white flex justify-end items-center'>
-                    <span className='text-5xl text-right leading-tight font-bold'>Impulsione sua obra com <br />o equipamento ideal <br />no momento certo!</span>
+                    <span className='text-4xl md:text-5xl text-right leading-tight font-bold'>Impulsione sua obra com <br className='hidden md:block' />o equipamento ideal <br className='hidden md:block' />no momento certo!</span>
                 </div>
             </CenterContent>
         </div>

@@ -7,7 +7,7 @@ const SuportBg = () => {
         <div className='h-full bg-black/20'>
             <CenterContent>
                 <div className='h-full text-white flex justify-start items-center'>
-                    <span className='text-5xl text-left leading-tight font-bold'>Tem dúvidas sobre qual  <br />equipamento é o mais adequado <br />para necessidade?</span>
+                    <span className='text-4xl md:text-5xl text-left leading-tight font-bold'>Tem dúvidas sobre qual  <br className='hidden md:block' />equipamento é o mais adequado <br className='hidden md:block' />para necessidade?</span>
                 </div>
             </CenterContent>
         </div>

@@ -4,11 +4,15 @@ import { checkPathname } from "@/lib/check-pathname";
 import { usePathname } from "next/navigation";
 import { NavLink, NavLinks } from "./components";
 
-const NavGroupLink = () => {
+interface NavGroupLinkDeskProps {
+ className: string
+}
+
+const NavGroupLinkDesk = ({ className }: NavGroupLinkDeskProps) => {
   const pathname = usePathname()
 
   return (
-    <NavLinks>
+    <NavLinks className={className}>
       <NavLink active={pathname === "/"} path="/" >Início</NavLink>
       <NavLink active={checkPathname(pathname, "/equipamentos")} path="/equipamentos" >Equipamentos</NavLink>
       <NavLink active={checkPathname(pathname, "/sobre")} path="/sobre" >Sobre</NavLink>
@@ -17,4 +21,4 @@ const NavGroupLink = () => {
   );
 };
 
-export default NavGroupLink;
+export default NavGroupLinkDesk;

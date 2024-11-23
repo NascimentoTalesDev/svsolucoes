@@ -5,6 +5,7 @@ import { Roboto } from "next/font/google";
 import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 import { ToastProvider } from "./providers/ToastProvider";
 import ContactModal from "./modals/ContactModal";
+import MenuMobileModal from "./modals/MenuMobileModal";
 
 const font = Roboto({ 
   subsets: ['latin' , 'latin-ext'],
@@ -64,10 +65,11 @@ export default function RootLayout({
       <body
         className={`relative ${font.className} overflow-x-hidden`}
       >
+        <MenuMobileModal />
         <ContactModal />
         <ToastProvider />
         <Header />
-        <div className="fixed z-50 right-8 bottom-8">
+        <div className="fixed z-50 right-4 bottom-4 md:right-8 ms:bottom-8">
           <WhatsAppIcon />
         </div>
         <main>
