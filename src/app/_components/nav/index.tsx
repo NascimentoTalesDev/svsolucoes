@@ -4,7 +4,7 @@ import { NavBettewen, NavComponent, NavContainer } from "./components";
 import NavGroupLinkDesk from "./group-link";
 import { AlignJustify } from "lucide-react";
 import { useMenuMobileModal } from "@/app/hooks/use-menu-mobile-modal";
-import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
+import Logo from "@/components/icons/Logo";
 
 const NavBar = () => {
     const menuMobile = useMenuMobileModal()
@@ -13,7 +13,7 @@ const NavBar = () => {
         <NavComponent>
             <NavContainer>
                 <NavBettewen>
-                    <WhatsAppIcon />
+                    <Logo />
                     <NavGroupLinkDesk className={"hidden md:flex"} />
                     <div onClick={()=> menuMobile.onOpen()} className="md:hidden p-4 cursor-pointer">
                         <AlignJustify width={30} className="text-white" />
