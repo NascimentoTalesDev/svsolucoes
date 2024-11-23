@@ -1,12 +1,14 @@
-import Image from 'next/image'
+import { Instagram } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 
 const InstagramIconMedia = () => {
   return (
-    <Link href={""}>
-        <Image src={"/images/social-media/instagrammedia.png"} alt='Instagram' height={30} width={30} />
-    </Link>
+    <div className='bg-primary flex items-center justify-center rounded-lg'>
+      <Link className='p-1' href={""}>
+          <Instagram className='text-white' />
+      </Link>
+    </div>
   )
 }
 

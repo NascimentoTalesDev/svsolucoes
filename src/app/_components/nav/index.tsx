@@ -16,7 +16,7 @@ const NavBar = () => {
                     <Logo />
 
                     <NavGroupLinkDesk className={"hidden md:flex"} />
-                    <div onClick={()=> menuMobile.onOpen() } className="md:hidden p-2">
+                    <div onClick={()=> menuMobile.onOpen()} className="md:hidden p-4 cursor-pointer">
                         <AlignJustify width={30} className="text-white" />
                     </div>
                 </NavBettewen>

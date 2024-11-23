@@ -2,7 +2,6 @@ import React from 'react'
 import CenterContent from '../CenterContent'
 import FacebookIconMedia from '@/components/icons/FacebookIconMedia'
 import InstagramIconMedia from '@/components/icons/InstagramIconMedia'
-import WhatsIconMedia from '@/components/icons/WhatsIconMedia'
 import Link from 'next/link'
 
 const Footer = () => {
@@ -31,7 +30,6 @@ const Footer = () => {
                             <h3 className='text-primary font-bold text-2xl'>Siga-nos nas redes</h3>
                             <p className='text-justify'>Acompanhe a SV Soluções nas redes sociais para novidades, dicas e informações sobre aluguel de mini escavadeiras. Fique por dentro de promoções e interaja conosco!</p>
                             <div className='flex gap-4'>
-                                <WhatsIconMedia />
                                 <FacebookIconMedia />
                                 <InstagramIconMedia />
                             </div>

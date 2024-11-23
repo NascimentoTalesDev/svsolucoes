@@ -65,7 +65,7 @@ export function NavLinksMobile({ children, className }: NavGenericProps) {
 export function NavLinkMobile({ children, className, path, active, onClick }: NavLinkMobileProps) {
     return (
         <li onClick={onClick}>
-            <Link href={path} className={cn(`font-normal text-lg  py-5 transition-all duration-300 hover:text-white ${active ? "text-gray" : "text-lightGray"}`, className)} >
+            <Link href={path} className={cn(`font-normal text-lg  py-5 transition-all duration-300 hover:text-gray ${active ? "text-gray" : "text-lightGray"}`, className)} >
                 {children}
             </Link>
         </li>
