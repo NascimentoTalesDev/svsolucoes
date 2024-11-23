@@ -14,6 +14,7 @@ const NavBar = () => {
             <NavContainer>
                 <NavBettewen>
                     <Logo />
+                    <Logo />
                     <NavGroupLinkDesk className={"hidden md:flex"} />
                     <div onClick={()=> menuMobile.onOpen()} className="md:hidden p-4 cursor-pointer">
                         <AlignJustify width={30} className="text-white" />
