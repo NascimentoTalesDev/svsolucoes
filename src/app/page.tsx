@@ -9,12 +9,12 @@ import TitleH2 from "./_components/TitleH2";
 import Footer from "./_components/footer/page";
 
 export const metadata: Metadata = {
-  title: "Home | SV Soluções",
+  title: "Início | SV Soluções",
   openGraph: {
-    title: "Home | SV Soluções",
+    title: "Início | SV Soluções",
   },
   twitter: {
-    title: "Home | SV Soluções",
+    title: "Início | SV Soluções",
   },
 };
 

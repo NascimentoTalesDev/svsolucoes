@@ -1,7 +1,6 @@
 "use client"
 import React from "react";
 import { NavBettewen, NavComponent, NavContainer } from "./components";
-import Logo from "../Logo";
 import NavGroupLinkDesk from "./group-link";
 import { AlignJustify } from "lucide-react";
 import { useMenuMobileModal } from "@/app/hooks/use-menu-mobile-modal";
