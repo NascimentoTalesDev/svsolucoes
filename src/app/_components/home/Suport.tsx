@@ -16,7 +16,7 @@ const Suport = () => {
                         <Button className='w-full'>Ver todas</Button>
                     </Link>
                 </div>
-                <Faqs />
+                <Faqs limit={6} />
             </div>
         </CenterContent>
     </div>

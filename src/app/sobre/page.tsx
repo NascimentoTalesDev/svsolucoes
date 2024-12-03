@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 const AboutPage = () => {
   return (
-    <div id='about'>
+    <>
       <TitleH1 text='Sobre a SV Soluções' />
       <AboutScreen />
       <Differentials />
@@ -32,7 +32,7 @@ const AboutPage = () => {
       <ValuesBg />
       <Reafirmation />
       <Suport />
-    </div>
+    </>
   )
 }
 

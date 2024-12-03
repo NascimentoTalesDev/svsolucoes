@@ -6,7 +6,7 @@ export const machines = [
         weight: "1500Kg",
         images: [
             "machine1.png",
-            "machine1.png"
+            "machine2.png"
         ]
     },
     {
@@ -16,7 +16,11 @@ export const machines = [
         weight: "2350Kg",
         images: [
             "machine2.png",
-            "machine2.png"
+            "machine1.png",
+            "machine2.png",
+            "machine1.png",
+            "machine2.png",
+            "machine1.png",
         ]
     }
 ]

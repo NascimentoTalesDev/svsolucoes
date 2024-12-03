@@ -19,6 +19,7 @@ const NavGroupLinkMobile = ({ className }: NavGroupLinkMobileProps) => {
       <NavLinkMobile onClick={() => menuMobile.onClose()} active={checkPathname(pathname, "/equipamentos")} path="/equipamentos" >Equipamentos</NavLinkMobile>
       <NavLinkMobile onClick={() => menuMobile.onClose()} active={checkPathname(pathname, "/sobre")} path="/sobre" >Sobre</NavLinkMobile>
       <NavLinkMobile onClick={() => menuMobile.onClose()} active={checkPathname(pathname, "/#contact")} path="#contact">Contato</NavLinkMobile>
+      <NavLinkMobile onClick={() => menuMobile.onClose()} active={checkPathname(pathname, "/faq")} path="/faq">Dúvidas Frequentes</NavLinkMobile>
     </NavLinksMobile>
   );
 };
