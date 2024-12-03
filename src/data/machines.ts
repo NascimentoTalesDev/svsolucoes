@@ -17,10 +17,10 @@ export const machines = [
         images: [
             "machine2.png",
             "machine1.png",
-            "machine2.png",
-            "machine1.png",
-            "machine2.png",
-            "machine1.png",
+            "machine3.png",
+            "machine4.png",
+            "machine5.png",
+            "machine6.png",
         ]
     }
 ]

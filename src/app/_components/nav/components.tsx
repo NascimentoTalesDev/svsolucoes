@@ -58,14 +58,14 @@ export function NavLink({ children, className, path, active }: NavLinkProps) {
 
 export function NavLinksMobile({ children, className }: NavGenericProps) {
     return (
-        <ul className={cn("flex flex-col items-center mt-[20%] gap-5 h-full", className)}>{children}</ul>
+        <ul className={cn("flex flex-col items-center mt-[20%] h-full", className)}>{children}</ul>
     )
 }
 
 export function NavLinkMobile({ children, className, path, active, onClick }: NavLinkMobileProps) {
     return (
-        <li onClick={onClick}>
-            <Link href={path} className={cn(`font-normal text-lg  py-5 transition-all duration-300 hover:text-gray ${active ? "text-gray" : "text-lightGray"}`, className)} >
+        <li className="p-4" onClick={onClick}>
+            <Link href={path} className={cn(`font-normal text-lg transition-all duration-300 ${active ? "text-gray" : "text-lightGray"}`, className)} >
                 {children}
             </Link>
         </li>

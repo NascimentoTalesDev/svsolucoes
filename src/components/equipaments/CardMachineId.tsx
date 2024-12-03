@@ -48,7 +48,7 @@ const CardMachineId = ({ machine }: CardMachineIdProps) => {
             <div className='grid grid-cols-1 md:grid-cols-2 items-center mx-auto gap-5 sm:w-[80%]'>
                 <div className=''>
                     <div className='relative h-[300px] sm:h-[350px] w-full mx-auto max-w-[350px]'>
-                        <div className='flex w-full bg-white top-40 z-50 absolute justify-between items-start'>
+                        <div className='flex w-full bg-white top-40 z-10 absolute justify-between items-start'>
                             <ChevronLeft className={`absolute left-0 cursor-pointer ${currentImage > 0 ? '' : 'hidden'}`} onClick={() => currentImage > 0 && prevImage()} />
                             <ChevronRight className={`absolute cursor-pointer right-0 ${currentImage < machine?.images.length - 1 ? '' : 'hidden'}`} onClick={nextImage} />
                         </div>
@@ -57,7 +57,7 @@ const CardMachineId = ({ machine }: CardMachineIdProps) => {
                         </div>
                     </div>
                     <div className='w-full overflow-hidden'>
-                        <div ref={imagesRef} className='flex flex-nowrap w-full overflow-x-hidden'>
+                        <div ref={imagesRef} className='flex flex-nowrap w-full overflow-x-scroll lg:overflow-x-hidden'>
                             {machine?.images.map((image, index) => (
                                 <div
                                     key={index}
