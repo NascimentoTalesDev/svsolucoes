@@ -97,4 +97,22 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .aboutcreen{
+    background: url("/images/bg-about.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mission-bg{
+    background: url("/images/mission.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .values-bg{
+    background: url("/images/valores.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

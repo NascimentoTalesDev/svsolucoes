@@ -15,6 +15,7 @@ const config: Config = {
 			gray: 'hsl(0, 0%, 23%)',
 			light: 'hsl(0, 0%, 100%)',
 			bg: 'hsl(0, 0%, 0%, 20%)',
+			bgRed: 'rgba(147, 1, 2, 90%)',
 			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

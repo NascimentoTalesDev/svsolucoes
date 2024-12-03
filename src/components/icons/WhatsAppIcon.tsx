@@ -4,8 +4,8 @@ import React from 'react'
 
 const WhatsAppIcon = () => {
   return (
-    <Link href={""}>
-        <Image src={"/images/whatsapp.png"} alt='WhatsApp' height={60} width={60} />
+    <Link target='_blank' href={"https://wa.me/5541996864867?text=Olá gostaria de fazer um orçamento"}>
+      <Image src={"/images/whatsapp.png"} alt='WhatsApp' height={60} width={60} />
     </Link>
   )
 }

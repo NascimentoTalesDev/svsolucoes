@@ -6,6 +6,10 @@ import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 import { ToastProvider } from "./providers/ToastProvider";
 import ContactModal from "./modals/ContactModal";
 import MenuMobileModal from "./modals/MenuMobileModal";
+import SuportBg from "./_components/home/SuportBg";
+import TitleH2 from "./_components/TitleH2";
+import Form from "./_components/Form";
+import Footer from "./_components/footer/page";
 
 const font = Roboto({ 
   subsets: ['latin' , 'latin-ext'],
@@ -75,6 +79,10 @@ export default function RootLayout({
         <main>
           {children}
         </main>
+        <SuportBg />
+        <TitleH2 text="Solicite um orçamento"/>
+        <Form id="contact" />
+        <Footer />
       </body>
     </html>
   );

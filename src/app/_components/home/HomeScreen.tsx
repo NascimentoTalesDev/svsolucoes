@@ -17,7 +17,7 @@ const HomeScreen = () => {
                             <h1 className='text-5xl md:text-[50px] leading-tight font-bold'>Liderando em locação <br className='hidden sm:block'/> com excelência!</h1>
                         </div>
                         <div className='mb-[20px]'>
-                            <p className='text-xl font-medium'>Somos uma empresa líder em locação, reconhecida por proporcionar experiências excepcionais a nossos clientes. Oferecemos soluções personalizadas, um serviço de excelência e compromisso com a satisfação, garantindo sempre qualidade e inovação em cada experiência de locação.</p>
+                            <p className='text-lg sm:text-xl font-medium'>Somos uma empresa líder em locação, reconhecida por proporcionar experiências excepcionais a nossos clientes. Oferecemos soluções personalizadas, um serviço de excelência e compromisso com a satisfação, garantindo sempre qualidade e inovação em cada experiência de locação.</p>
                         </div>
                         <div>
                             <Button onClick={() => contact.onOpen()} variant={"default"} size={"lg"} >Solicitar orçamento</Button>

@@ -9,8 +9,7 @@ const Footer = () => {
         <div className='mt-[100px] mb-[50px]'>
             <CenterContent>
                 <div className='flex flex-col gap-[100px]'>
-
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-24'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24'>
                         <div>
                             <h3 className='text-primary font-bold text-2xl mb-[30px]'>SV Soluçoes</h3>
                             <p className='text-justify'>A SV Soluções é especializada no aluguel de mini escavadeiras e equipamentos pesados. Oferecemos máquinas modernas, suporte técnico dedicado e condições flexíveis de locação, garantindo eficiência e segurança para projetos de construção e infraestrutura.</p>
@@ -19,10 +18,10 @@ const Footer = () => {
                             <h3 className='text-primary font-bold text-2xl mb-[30px]'>Menu</h3>
                             <div>
                                 <ul className='flex flex-col gap-5'>
-                                    <Link className='text-secondary w-fit hover:text-primary' href={""}>Início</Link>
-                                    <Link className='text-secondary w-fit hover:text-primary' href={""}>Equipamentos</Link>
-                                    <Link className='text-secondary w-fit hover:text-primary' href={""}>Sobre nós</Link>
-                                    <Link className='text-secondary w-fit hover:text-primary' href={""}>Solicitar orçamento</Link>
+                                    <Link className='text-secondary w-fit hover:text-primary' href={"/"}>Início</Link>
+                                    <Link className='text-secondary w-fit hover:text-primary' href={"/equipamentos"}>Equipamentos</Link>
+                                    <Link className='text-secondary w-fit hover:text-primary' href={"/sobre"}>Sobre nós</Link>
+                                    <Link className='text-secondary w-fit hover:text-primary' href={"#contact"}>Solicitar orçamento</Link>
                                 </ul>
                             </div>
                         </div>

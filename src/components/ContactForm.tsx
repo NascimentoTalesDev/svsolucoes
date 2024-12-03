@@ -18,6 +18,7 @@ import { Loader } from "lucide-react";
 import { sendMail } from "@/app/actions";
 import { Textarea } from "./ui/textarea";
 import { Email } from "@/app/types/email";
+import { useContactModal } from "@/app/hooks/use-contact-modal";
 
 const formSchema = z.object({
     name: z.string().min(1, {
@@ -34,12 +35,14 @@ const formSchema = z.object({
 
 const ContactForm = () => {
     const [isSendingMail, setIsSendingMail] = useState(false)
+    const contactModal = useContactModal()
 
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
         defaultValues: {
             name: '',
             email: '',
+            phone: '',
             message: ''
         },
     });
@@ -55,6 +58,7 @@ const ContactForm = () => {
             console.log("RESP EMAIL", res);
 
             toast.success("Email enviado com sucesso")
+            contactModal.onClose()
         } catch (error) {
             toast.error("Ocorreu um erro inesperado, tente mais tarde")
             console.log(error);

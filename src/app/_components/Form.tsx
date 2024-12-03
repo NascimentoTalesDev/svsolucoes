@@ -8,7 +8,7 @@ interface FormProps {
 
 const Form = ({ id }: FormProps) => {
   return (
-    <div id={id} className='bg-primary py-[100px]'>
+    <div id={id} className='bg-primary py-[50px] sm:py-[100px]'>
         <CenterContent>
             <div className='grid grid-cols-1 md:grid-cols-3 rounded-md w-full h-full bg-light py-10 px-5 gap-10 items-center'>
                 <div className='md:col-span-1 h-full w-full flex flex-col justify-center gap-[50px] md:border-r-[1px] md:border-primary text-center md:px-10'>
