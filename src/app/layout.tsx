@@ -68,7 +68,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <Head>
-        <meta property="og:image" content={`/images/logo.png`} />
+        <meta property="og:image" content={`https://svsolucoes.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75`} />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
         <meta property="og:locale" content="pt-BR" />
