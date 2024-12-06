@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24'>
                         <div>
                             <h3 className='text-primary font-bold text-2xl mb-[30px]'>SV Soluçoes</h3>
-                            <p className='text-justify'>A SV Soluções é especializada no aluguel de mini escavadeiras e equipamentos pesados. Oferecemos máquinas modernas, suporte técnico dedicado e condições flexíveis de locação, garantindo eficiência e segurança para projetos de construção e infraestrutura.</p>
+                            <p className='md:text-justify'>A SV Soluções é especializada no aluguel de mini escavadeiras e equipamentos pesados. Oferecemos máquinas modernas, suporte técnico dedicado e condições flexíveis de locação, garantindo eficiência e segurança para projetos de construção e infraestrutura.</p>
                         </div>
                         <div className='md:ml-10'>
                             <h3 className='text-primary font-bold text-2xl mb-[30px]'>Menu</h3>
@@ -27,7 +27,7 @@ const Footer = () => {
                         </div>
                         <div className='flex flex-col gap-8'>
                             <h3 className='text-primary font-bold text-2xl'>Siga-nos nas redes</h3>
-                            <p className='text-justify'>Acompanhe a SV Soluções nas redes sociais para novidades, dicas e informações sobre aluguel de mini escavadeiras. Fique por dentro de promoções e interaja conosco!</p>
+                            <p className='md:text-justify'>Acompanhe a SV Soluções nas redes sociais para novidades, dicas e informações sobre aluguel de mini escavadeiras. Fique por dentro de promoções e interaja conosco!</p>
                             <div className='flex gap-4'>
                                 <FacebookIconMedia />
                                 <InstagramIconMedia />

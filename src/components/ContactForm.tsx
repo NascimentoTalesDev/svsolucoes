@@ -55,15 +55,19 @@ const ContactForm = () => {
 
         try {
             const res = await sendMail(values as Email)
-            console.log("RESP EMAIL", res);
-
-            toast.success("Email enviado com sucesso")
-            contactModal.onClose()
+            console.log(res);
+            
+            // if (res.message.type === "success" ) {
+                // toast.success(res.message.data)
+                toast.success("Email enviado com sucesso")
+                setTimeout(() => toast.success("Em breve entraremos em contato"), 2000)
+                contactModal.onClose()
+                form.reset()
+            // }
         } catch (error) {
             toast.error("Ocorreu um erro inesperado, tente mais tarde")
             console.log(error);
         }
-        form.reset()
         setIsSendingMail(false)
     };
 

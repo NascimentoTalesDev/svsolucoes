@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     width: "device-width",
     initialScale: 1,
   },
-  keywords: "construção, obra, maquinas pesadas, escavadeira",
-  authors: [{ name: "Nascimento" }],
-  robots: "index, follow",
+  keywords: "construção, obra, maquinas pesadas, escavadeira, svsolucoes, sv soluções, sv solucoes, locação de máquinas, mini escavadeiras, construção, obras, aluguel de máquinas pesadas",
+  authors: [{ name: "Nascimento - https://www.guiodev.com.br" }],
+  robots: "svsolucoes, sv soluções, sv solucoes, locação de máquinas, mini escavadeiras, construção, obras, aluguel de máquinas pesadas",
   openGraph: {
     title: "SV Soluções",
     description: "Somos uma empresa líder em locação, reconhecida por proporcionar experiências excepcionais a nossos clientes. Oferecemos soluções personalizadas, um serviço de excelência e compromisso com a satisfação, garantindo sempre qualidade e inovação em cada experiência de locação.",

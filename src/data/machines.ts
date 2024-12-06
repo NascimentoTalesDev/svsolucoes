@@ -1,26 +1,40 @@
 export const machines = [
     {
         id: "1",
-        name: "Mini escavadeira",
-        description: "Nossas máquinas mais compactas são máquinas incrivelmente ágeis, versáteis e confiáveis que podem trabalhar quase em qualquer lugar enquanto carregam uma quantidade surpreendente de potência, rivalizando com concorrentes maiores",
-        weight: "1500Kg",
+        name: "Mini Escavadeira JCB 8026 CTS",
+        descriptions: [
+            "Descubra a eficiência e o conforto da JCB 8026 CTS, projetada para oferecer um ambiente espaçoso e funcional ao operador, com 50 mm extras de espaço para as pernas e pedais dobráveis que otimizam a organização e a limpeza da cabine.", 
+            "Líder em levantamento e estabilidade, essa máquina combina alto esforço de tração, velocidade de deslocamento e força de desagregação incomparáveis.",
+            "Equipada com um motor de 18,4 kW, Tier III, que entrega impressionantes 96 kN de torque a 1.800 rpm, a 8026 CTS garante desempenho e eficiência excepcionais.",
+            "Com controles intuitivos e tecnologias avançadas, incluindo controle proporcional eletrônico, ela coloca precisão e potência na palma de sua mão."
+        ],
+        operationalWeight: "2,951 kg",
+        maximumDiggingDepth: "3.22 m",
+        maximumDischargeHeight: "3.05 m",
+        enginePower: "18.4 kW ",
+        fuel: "Diesel ",
         images: [
-            "machine1.png",
-            "machine2.png"
+            "machine1/img1.webp",
+            "machine1/img2.webp",
+            "machine1/img3.webp",
+            "machine1/img4.webp",
         ]
     },
     {
         id: "2",
-        name: "Mini Escavadeira E20z",
-        description: "A escavadeira compacta (mini escavadeira) Bobcat® E20z oferece desempenho impressionante em espaços confinados com necessidade mínima de reposicionamento. A E20z tem giro traseiro zero para versatilidade e manobrabilidade nos locais de trabalho mais compactos",
-        weight: "2350Kg",
+        name: "Mini Escavadeira JCB 8026 CTS",
+        descriptions: [
+            "Mini Escavadeira Bobcat 325: Compacta, versátil e eficiente, a Bobcat 325 é ideal para serviços em espaços reduzidos e trabalhos exigentes.", 
+            "Com um design robusto e esteiras que proporcionam excelente tração, ela oferece estabilidade e precisão em terrenos variados.",
+            "Equipado com uma cabine aberta que garante visibilidade total e fácil acesso, este modelo é perfeito para projetos de construção, paisagismo e manutenção, garantindo desempenho confiável e alta produtividade."
+        ],
+        operationalWeight: "567 kg",
+        enginePower: "27.4 Hp",
+        fuel: "Diesel ",
         images: [
-            "machine2.png",
-            "machine1.png",
-            "machine3.png",
-            "machine4.png",
-            "machine5.png",
-            "machine6.png",
+            "machine2/img1.webp",
+            "machine2/img2.webp",
+            "machine2/img3.webp",
         ]
     }
 ]

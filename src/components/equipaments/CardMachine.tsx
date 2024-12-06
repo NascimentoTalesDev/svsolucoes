@@ -18,7 +18,10 @@ const CardMachine = ({ machine }: CardMachineProps) => {
             </div>
             <div className='flex flex-col gap-[20px]'>
                 <h3 className='font-bold text-xl'>{machine?.name}</h3>
-                <p className='text-justify'>{formatCharacterLimit(200, machine?.description)}</p>
+                {machine?.descriptions.length > 0 && machine?.descriptions.slice(0, 2).map((description, idx) => (
+                    <p key={idx} className='md:text-justify'>{formatCharacterLimit(100,description)}</p>
+                ))}
+
                 <Link className='w-full md:w-fit' href={`/equipamentos/${machine?.id}`}>
                     <Button className='w-full'>Ver detalhes</Button>
                 </Link>
