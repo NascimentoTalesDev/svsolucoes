@@ -80,37 +80,37 @@ body {
     scroll-behavior: smooth;
   }
   .homescreen{
-    background: url("/images/bg-home.webp");
+    background: url("/images/bg-home2.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .ideal-bg{
-    background: url("/images/bg-ideal.jpeg");
+    background: url("/images/bg-ideal2.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .suport-bg{
-    background: url("/images/bg-faq.jpeg");
+    background: url("/images/bg-faq2.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .aboutcreen{
-    background: url("/images/bg-about.png");
+    background: url("/images/bg-about2.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .mission-bg{
-    background: url("/images/mission.webp");
+    background: url("/images/mission2.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .values-bg{
-    background: url("/images/valores.jpeg");
+    background: url("/images/valores2.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
