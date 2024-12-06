@@ -10,11 +10,12 @@ import SuportBg from "./_components/home/SuportBg";
 import TitleH2 from "./_components/TitleH2";
 import Form from "./_components/Form";
 import Footer from "./_components/footer/page";
+import Head from "next/head";
 
-const font = Roboto({ 
-  subsets: ['latin' , 'latin-ext'],
-  weight: ["300", "500", "700", "900"], 
-  style: 'normal', 
+const font = Roboto({
+  subsets: ['latin', 'latin-ext'],
+  weight: ["300", "500", "700", "900"],
+  style: 'normal',
 });
 
 export const metadata: Metadata = {
@@ -66,6 +67,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <Head>
+        <meta property="og:image" content={`/images/logo.png`} />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
+        <meta property="og:locale" content="pt-BR" />
+      </Head>
       <body
         className={`relative ${font.className} overflow-x-hidden`}
       >
@@ -80,7 +87,7 @@ export default function RootLayout({
           {children}
         </main>
         <SuportBg />
-        <TitleH2 text="Solicite um orçamento"/>
+        <TitleH2 text="Solicite um orçamento" />
         <Form id="contact" />
         <Footer />
       </body>
