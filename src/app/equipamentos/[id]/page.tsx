@@ -38,7 +38,6 @@ const EquipmentPageId = async ({ params }: { params: { id: string } }) => {
       </CenterContent>
       <IdealBg />
       <Suport />
-
     </>
   )
 }

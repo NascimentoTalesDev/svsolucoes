@@ -22,11 +22,11 @@ export const machines = [
     },
     {
         id: "2",
-        name: "Mini Escavadeira JCB 8026 CTS",
+        name: "Mini Escavadeira Bobcat 325",
         descriptions: [
-            "Mini Escavadeira Bobcat 325: Compacta, versátil e eficiente, a Bobcat 325 é ideal para serviços em espaços reduzidos e trabalhos exigentes.", 
+            "Este modelo é perfeito para projetos de construção, compacta, versátil e eficiente, a Bobcat 325 é ideal para serviços em espaços reduzidos e trabalhos exigentes.", 
             "Com um design robusto e esteiras que proporcionam excelente tração, ela oferece estabilidade e precisão em terrenos variados.",
-            "Equipado com uma cabine aberta que garante visibilidade total e fácil acesso, este modelo é perfeito para projetos de construção, paisagismo e manutenção, garantindo desempenho confiável e alta produtividade."
+            "Equipado com uma cabine aberta que garante visibilidade total e fácil acesso, paisagismo e manutenção, garantindo desempenho confiável e alta produtividade."
         ],
         operationalWeight: "567 kg",
         enginePower: "27.4 Hp",
