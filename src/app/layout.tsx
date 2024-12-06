@@ -10,12 +10,11 @@ import SuportBg from "./_components/home/SuportBg";
 import TitleH2 from "./_components/TitleH2";
 import Form from "./_components/Form";
 import Footer from "./_components/footer/page";
-import Head from "next/head";
 
-const font = Roboto({
-  subsets: ['latin', 'latin-ext'],
-  weight: ["300", "500", "700", "900"],
-  style: 'normal',
+const font = Roboto({ 
+  subsets: ['latin' , 'latin-ext'],
+  weight: ["300", "500", "700", "900"], 
+  style: 'normal', 
 });
 
 export const metadata: Metadata = {
@@ -35,7 +34,7 @@ export const metadata: Metadata = {
     url: "https://svsolucoes.app-vercel.com",
     images: [
       {
-        url: "https://svsolucoes.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75",
+        url: "/images/logo.png",
         width: 800,
         height: 600,
         alt: "Logo SV Soluções",
@@ -47,16 +46,16 @@ export const metadata: Metadata = {
     title: "SV Soluções",
     description: "Somos uma empresa líder em locação, reconhecida por proporcionar experiências excepcionais a nossos clientes. Oferecemos soluções personalizadas, um serviço de excelência e compromisso com a satisfação, garantindo sempre qualidade e inovação em cada experiência de locação.",
     images: [
-      "https://svsolucoes.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75",
+      "/images/logo.png",
     ],
   },
   other: {
     language: "pt-BR",
   },
   icons: {
-    icon: "https://svsolucoes.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75",
-    shortcut: "https://svsolucoes.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75",
-    apple: "https://svsolucoes.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75",
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png",
   },
 };
 
@@ -67,12 +66,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <Head>
-        <meta property="og:image" content={`https://svsolucoes.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75`} />
-        <meta property="og:image:width" content="400" />
-        <meta property="og:image:height" content="300" />
-        <meta property="og:locale" content="pt-BR" />
-      </Head>
       <body
         className={`relative ${font.className} overflow-x-hidden`}
       >
@@ -87,7 +80,7 @@ export default function RootLayout({
           {children}
         </main>
         <SuportBg />
-        <TitleH2 text="Solicite um orçamento" />
+        <TitleH2 text="Solicite um orçamento"/>
         <Form id="contact" />
         <Footer />
       </body>
