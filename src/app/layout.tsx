@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     url: "https://svsolucoes.app-vercel.com",
     images: [
       {
-        url: "/images/logo.png",
+        url: "https://svsolucoes.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75",
         width: 800,
         height: 600,
         alt: "Logo SV Soluções",
@@ -47,16 +47,16 @@ export const metadata: Metadata = {
     title: "SV Soluções",
     description: "Somos uma empresa líder em locação, reconhecida por proporcionar experiências excepcionais a nossos clientes. Oferecemos soluções personalizadas, um serviço de excelência e compromisso com a satisfação, garantindo sempre qualidade e inovação em cada experiência de locação.",
     images: [
-      "/images/logo.png",
+      "https://svsolucoes.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75",
     ],
   },
   other: {
     language: "pt-BR",
   },
   icons: {
-    icon: "/images/logo.png",
-    shortcut: "/images/logo.png",
-    apple: "/images/logo.png",
+    icon: "https://svsolucoes.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75",
+    shortcut: "https://svsolucoes.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75",
+    apple: "https://svsolucoes.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75",
   },
 };
 
