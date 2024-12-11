@@ -2,10 +2,14 @@ import React from 'react'
 import CenterContent from '../CenterContent'
 import CardsMachines from '@/components/equipaments/CardsMachines'
 
-const OurEquipment = () => {
+interface OurEquipmentProps {
+  limit?: number
+}
+
+const OurEquipment = ({ limit }: OurEquipmentProps) => {
   return (
     <CenterContent>
-        <CardsMachines />
+        <CardsMachines limit={limit}/>
     </CenterContent>
   )
 }

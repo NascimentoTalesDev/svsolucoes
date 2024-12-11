@@ -1,6 +1,6 @@
 export const machines = [
     {
-        id: "1",
+        id: "38d460cb-bcea-4657-ba5c-763df5b2ae50",
         name: "Mini Escavadeira JCB 8026 CTS",
         descriptions: [
             "Descubra a eficiência e o conforto da JCB 8026 CTS, projetada para oferecer um ambiente espaçoso e funcional ao operador, com 50 mm extras de espaço para as pernas e pedais dobráveis que otimizam a organização e a limpeza da cabine.", 
@@ -8,7 +8,7 @@ export const machines = [
             "Equipada com um motor de 18,4 kW, Tier III, que entrega impressionantes 96 kN de torque a 1.800 rpm, a 8026 CTS garante desempenho e eficiência excepcionais.",
             "Com controles intuitivos e tecnologias avançadas, incluindo controle proporcional eletrônico, ela coloca precisão e potência na palma de sua mão."
         ],
-        operationalWeight: "2,951 kg",
+        operationalWeight: "2.951 kg",
         maximumDiggingDepth: "3.22 m",
         maximumDischargeHeight: "3.05 m",
         enginePower: "18.4 kW ",
@@ -21,20 +21,59 @@ export const machines = [
         ]
     },
     {
-        id: "2",
+        id: "39e4e77b-0071-4cd6-9ff3-e5def7f3ceb7",
+        name: "Fresadora de asfalto wirtgen W100 HR",
+        descriptions: [
+            "Versátil e eficiente, a Fresadora de Asfalto Wirtgen W100 HR é ideal para remoção precisa de pavimentos em projetos de manutenção e reparo de vias.",
+            "Com uma largura de fresagem ajustável e design compacto, ela se adapta facilmente a diferentes condições de trabalho, garantindo máxima eficiência em espaços reduzidos.",
+            "Equipada com tecnologia de ponta e sistema de controle ergonômico, oferece desempenho confiável, cortes uniformes e operação segura, sendo uma escolha perfeita para resultados de alta qualidade.",
+        ],
+        operationalWeight: "13.600 kg",
+        enginePower: "211 Hp",
+        fuel: "Diesel ",
+        images: [
+            "machine4/img1.webp",
+            "machine4/img2.webp",
+            "machine4/img3.webp",
+            "machine4/img4.webp",
+        ]
+    },
+    {
+        id: "cf8039de-f355-4f73-984c-4abd9451f036",
         name: "Mini Escavadeira Bobcat 325",
         descriptions: [
             "Este modelo é perfeito para projetos de construção, compacta, versátil e eficiente, a Bobcat 325 é ideal para serviços em espaços reduzidos e trabalhos exigentes.", 
             "Com um design robusto e esteiras que proporcionam excelente tração, ela oferece estabilidade e precisão em terrenos variados.",
             "Equipado com uma cabine aberta que garante visibilidade total e fácil acesso, paisagismo e manutenção, garantindo desempenho confiável e alta produtividade."
         ],
-        operationalWeight: "567 kg",
+        operationalWeight: "2.541 kg",
         enginePower: "27.4 Hp",
         fuel: "Diesel ",
         images: [
             "machine2/img1.webp",
             "machine2/img2.webp",
             "machine2/img3.webp",
+            "machine2/img4.webp",
+            "machine2/img5.webp",
+            "machine2/img6.webp",
         ]
-    }
+    },
+    {
+        id: "d4ad7d81-08bf-47db-9d5f-df2f636348b4",
+        name: "Fresadora de asfalto wirtgen W100F carregamento frontal",
+        descriptions: [
+            "Projetada para máxima eficiência, a Fresadora de Asfalto Wirtgen W100F é a solução ideal para reparos em pavimentos, combinando potência e precisão em um design compacto e funcional.",
+            "Com sistema de carregamento frontal, oferece alta produtividade, permitindo a remoção de asfalto com agilidade e transporte direto do material fresado para caminhões.",
+            "Equipada com tecnologia avançada e controles intuitivos, garante cortes uniformes e operação segura em diferentes condições, sendo perfeita para projetos de infraestrutura e manutenção rodoviária.",
+        ],
+        operationalWeight: "17.400 kg",
+        enginePower: "280 Hp",
+        fuel: "Diesel ",
+        images: [
+            "machine3/img1.webp",
+            "machine3/img2.webp",
+            "machine3/img3.webp",
+        ]
+    },
+    
 ]

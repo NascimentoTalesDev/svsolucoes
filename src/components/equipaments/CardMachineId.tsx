@@ -60,7 +60,7 @@ const CardMachineId = ({ machine }: CardMachineIdProps) => {
                             </Button>
                         </div>
                         <div className='relative h-full max-h-[300px] w-full mx-auto max-w-[450px]'>
-                            <Image src={`/images/machines/${machine?.images[currentImage]}`} alt='Imagem' fill objectFit='cover'></Image>
+                            <Image src={`/images/machines/${machine?.images[currentImage]}`} alt='Imagem' fill objectFit='contain'></Image>
                         </div>
                     </div>
                     <div className='w-full overflow-hidden'>
@@ -69,7 +69,7 @@ const CardMachineId = ({ machine }: CardMachineIdProps) => {
                                 <div
                                     key={index}
                                     ref={(ref) => { if (ref) imageRefs.current[index] = ref; }}
-                                    className={`relative min-w-[80px] mr-[10px] mt-5  max-w-[80px] h-[80px] cursor-pointer ${currentImage === index ? 'border-2 border-primary' : ''}`}
+                                    className={`relative min-w-[80px] ml-[10px] mt-5  max-w-[80px] h-[80px] cursor-pointer ${currentImage === index ? 'border-2 border-primary' : ''}`}
                                     onClick={() => handleImageClick(index)}
                                 >
                                     <Image src={`/images/machines/${image}`} alt={`Imagem ${index + 1}`} fill objectFit='cover'  ></Image>

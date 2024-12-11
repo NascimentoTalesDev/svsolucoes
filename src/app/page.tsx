@@ -21,7 +21,7 @@ export default function Home() {
     <div className="w-full h-full">
       <HomeScreen />
       <TitleH2 text="Nossos equipamentos"/>
-      <OurEquipment />
+      <OurEquipment limit={3} />
       <IdealBg />
       <Suport />
     </div>
