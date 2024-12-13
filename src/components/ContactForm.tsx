@@ -15,7 +15,7 @@ import toast from "react-hot-toast";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Loader } from "lucide-react";
-import { sendMail } from "@/app/actions";
+import { sendMailRequestingContact } from "@/app/actions";
 import { Textarea } from "./ui/textarea";
 import { Email } from "@/app/types/email";
 import { useContactModal } from "@/app/hooks/use-contact-modal";
@@ -51,19 +51,16 @@ const ContactForm = () => {
 
     const onSubmit = async (values: z.infer<typeof formSchema>) => {
         setIsSendingMail(true)
-        console.log(values);
-
+        const fristName = values.name.split(" ")[0]
         try {
-            const res = await sendMail(values as Email)
-            console.log(res);
-            
-            // if (res.message.type === "success" ) {
-                // toast.success(res.message.data)
-                toast.success("Email enviado com sucesso")
+            const res = await sendMailRequestingContact(values as Email, fristName)
+
+            if (res.data.type === "success" ) {
+                toast.success(res.data.message)
                 setTimeout(() => toast.success("Em breve entraremos em contato"), 2000)
                 contactModal.onClose()
                 form.reset()
-            // }
+            }
         } catch (error) {
             toast.error("Ocorreu um erro inesperado, tente mais tarde")
             console.log(error);

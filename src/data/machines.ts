@@ -3,7 +3,7 @@ export const machines = [
         id: "38d460cb-bcea-4657-ba5c-763df5b2ae50",
         name: "Mini Escavadeira JCB 8026 CTS",
         descriptions: [
-            "Descubra a eficiência e o conforto da JCB 8026 CTS, projetada para oferecer um ambiente espaçoso e funcional ao operador, com 50 mm extras de espaço para as pernas e pedais dobráveis que otimizam a organização e a limpeza da cabine.", 
+            "Descubra a eficiência e o conforto da JCB 8026 CTS, projetada para oferecer um ambiente espaçoso e funcional ao operador, com 50 mm extras de espaço para as pernas e pedais dobráveis que otimizam a organização e a limpeza da cabine.",
             "Líder em levantamento e estabilidade, essa máquina combina alto esforço de tração, velocidade de deslocamento e força de desagregação incomparáveis.",
             "Equipada com um motor de 18,4 kW, Tier III, que entrega impressionantes 96 kN de torque a 1.800 rpm, a 8026 CTS garante desempenho e eficiência excepcionais.",
             "Com controles intuitivos e tecnologias avançadas, incluindo controle proporcional eletrônico, ela coloca precisão e potência na palma de sua mão."
@@ -34,15 +34,35 @@ export const machines = [
         images: [
             "machine4/img1.webp",
             "machine4/img2.webp",
+            "machine4/img5.webp",
             "machine4/img3.webp",
-            "machine4/img4.webp",
+        ]
+    },
+    {
+        id: "bb8d2b01-77be-4435-b062-3a7b172143c3",
+        name: "Escavadeira Hyundai 210 LC",
+        descriptions: [
+            "A Escavadeira Hyundai 210 LC é projetada para oferecer desempenho superior em escavações e movimentação de materiais, combinando força e precisão.",
+            "Com motor potente e baixo consumo de combustível, é ideal para obras de infraestrutura, mineração e construção civil, garantindo alta produtividade e eficiência.",
+            "Seu design robusto e sistemas de operação avançados proporcionam conforto ao operador, segurança e confiabilidade, mesmo nas condições mais desafiadoras."
+        ],
+        operationalWeight: "21.700 kg",
+        enginePower: "155 Hp",
+        fuel: "Diesel ",
+        images: [
+            "machine7/img1.webp",
+            "machine7/img5.webp",
+            "machine7/img3.webp",
+            "machine7/img2.webp",
+            "machine7/img4.webp",
+            "machine7/img6.webp",
         ]
     },
     {
         id: "cf8039de-f355-4f73-984c-4abd9451f036",
         name: "Mini Escavadeira Bobcat 325",
         descriptions: [
-            "Este modelo é perfeito para projetos de construção, compacta, versátil e eficiente, a Bobcat 325 é ideal para serviços em espaços reduzidos e trabalhos exigentes.", 
+            "Este modelo é perfeito para projetos de construção, compacta, versátil e eficiente, a Bobcat 325 é ideal para serviços em espaços reduzidos e trabalhos exigentes.",
             "Com um design robusto e esteiras que proporcionam excelente tração, ela oferece estabilidade e precisão em terrenos variados.",
             "Equipado com uma cabine aberta que garante visibilidade total e fácil acesso, paisagismo e manutenção, garantindo desempenho confiável e alta produtividade."
         ],
@@ -50,8 +70,8 @@ export const machines = [
         enginePower: "27.4 Hp",
         fuel: "Diesel ",
         images: [
-            "machine2/img1.webp",
             "machine2/img2.webp",
+            "machine2/img1.webp",
             "machine2/img3.webp",
             "machine2/img4.webp",
             "machine2/img5.webp",
@@ -70,10 +90,49 @@ export const machines = [
         enginePower: "280 Hp",
         fuel: "Diesel ",
         images: [
-            "machine3/img1.webp",
-            "machine3/img2.webp",
             "machine3/img3.webp",
+            "machine3/img1.webp",
+            "machine3/img5.webp",
+            "machine3/img2.webp",
+            "machine3/img4.webp",
         ]
     },
-    
+    {
+        id: "2c86b3cb-679b-4d50-b35f-d8f9d4b5e990",
+        name: "Fresadora de Asfalto Wirtgen W100",
+        descriptions: [
+            "A Fresadora de Asfalto Wirtgen W100 é compacta e eficiente, projetada para fresagem precisa em áreas urbanas e rodovias de médio porte.",
+            "Com tecnologia de ponta, garante cortes uniformes e remoção de asfalto com alta precisão, atendendo às exigências de projetos de infraestrutura modernos.",
+            "Seu design robusto e sistema de operação intuitivo proporcionam produtividade elevada, segurança e confiabilidade para manutenção e reparos de pavimentos."
+        ],
+        operationalWeight: "14.350 kg",
+        enginePower: "208 Hp",
+        fuel: "Diesel ",
+        images: [
+            "machine5/img1.webp",
+            "machine5/img3.webp",
+            "machine5/img5.webp",
+            "machine5/img2.webp",
+            "machine5/img4.webp",
+        ]
+    },
+    {
+        id: "6bddcbaa-0d12-4723-bc14-1b9df679fe21",
+        name: "Fresadora de Asfalto Wirtgen W1000L",
+        descriptions: [
+            "A Fresadora de Asfalto Wirtgen W1000L combina potência e precisão para projetos de fresagem de médio a grande porte, garantindo resultados excepcionais.",
+            "Com largura de corte ideal e alta capacidade de remoção, é projetada para atender demandas exigentes em reparos e reconstrução de pavimentos.",
+            "Equipada com avançados sistemas de controle e operação intuitiva, proporciona eficiência, segurança e alta produtividade, sendo a escolha perfeita para projetos de infraestrutura rodoviária."
+        ],
+        operationalWeight: "14.000 kg",
+        enginePower: "173 Hp",
+        fuel: "Diesel ",
+        images: [
+            "machine6/img3.webp",
+            "machine6/img1.webp",
+            "machine6/img5.webp",
+            "machine6/img2.webp",
+            "machine6/img4.webp",
+        ]
+    },
 ]
